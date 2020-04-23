@@ -40,7 +40,7 @@ function FilePicker(props) {
             <p>Drop the video here ...</p>
           ) : (
             <>
-              <p>Drag 'n' drop a video here, or click to select one Thanuja</p>
+              <p>Drag 'n' drop a video here, or click to select one</p>
               <p>
                 <small>
                   ({toMB(MIN_SIZE)} - {toMB(MAX_SIZE)}MB)
