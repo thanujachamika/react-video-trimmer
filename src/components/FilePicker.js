@@ -11,7 +11,7 @@ function FilePicker(props) {
       handler(video);
     }
   }, []);
-  const MAX_SIZE = props.maxSize || 20000024;
+  const MAX_SIZE = props.maxSize || 10000024;
   const MIN_SIZE = props.minSize || 0;
   // const handleFileChange = useCallback(e => {
   //   if (e.target.files.length) {
