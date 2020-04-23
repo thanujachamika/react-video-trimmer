@@ -11,7 +11,7 @@ function FilePicker(props) {
       handler(video);
     }
   }, []);
-  const MAX_SIZE = props.maxSize || 10000024;
+  const MAX_SIZE = props.maxSize || 20000024;
   const MIN_SIZE = props.minSize || 0;
   // const handleFileChange = useCallback(e => {
   //   if (e.target.files.length) {
@@ -40,7 +40,7 @@ function FilePicker(props) {
             <p>Drop the video here ...</p>
           ) : (
             <>
-              <p>Drag 'n' drop a video here, or click to select one</p>
+              <p>Drag 'n' drop a video here, or click to select one Thanuja</p>
               <p>
                 <small>
                   ({toMB(MIN_SIZE)} - {toMB(MAX_SIZE)}MB)
